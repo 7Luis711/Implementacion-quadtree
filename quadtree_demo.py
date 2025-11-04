@@ -277,11 +277,6 @@ class QuadtreeDemo:
 
 
 if __name__ == "__main__":
-    print("Iniciando Quadtree corregido...")
-    print("COMPORTAMIENTO ESPERADO:")
-    print("1. Primer punto: Crear 4 regiones principales")
-    print("2. Puntos siguientes: Insertar en regiones existentes") 
-    print("3. Subdivisión: Solo cuando una región tiene >1 punto")
     app = QuadtreeDemo(capacity=1)
     plt.show()
 
